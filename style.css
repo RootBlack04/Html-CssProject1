@@ -1,0 +1,56 @@
+.boy {
+  display: inline;
+  border: solid 1px;
+  background-color: rgb(82, 70, 192);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 70px;
+  padding: 10px 20px;
+}
+h1 {
+  text-transform: capitalize;
+  color: green;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span {
+  color: rgb(211, 139, 30);
+}
+
+.mark {
+  list-style: circle;
+  color: red;
+}
+
+.c1 {
+  color: blue;
+}
+.c2 {
+  color: rgb(158, 36, 36);
+}
+
+label {
+  color: brown;
+}
+p::first-letter {
+  text-transform: capitalize;
+  font-size: 50px;
+  font-style: italic;
+  color: blue;
+}
+
+p::first-line {
+  font-size: 20px;
+  color: brown;
+  text-decoration: underline;
+}
+
+.button:hover{
+    color: greenyellow;
+    background-color: azure;
+}
+
+.button:active{
+    color: blue;
+}
